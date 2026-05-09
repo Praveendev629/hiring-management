@@ -8,7 +8,7 @@ import axios from 'axios';
  *    For Android Emulator:  http://10.0.2.2:4000/api
  *    For iOS Simulator:     http://localhost:4000/api
  */
-const BASE_URL = 'http://10.0.2.2:4000/api';   // Android emulator default
+const BASE_URL = 'https://hiring-management.onrender.com/api';   // Android emulator default
 
 const api = axios.create({
   baseURL: BASE_URL,
